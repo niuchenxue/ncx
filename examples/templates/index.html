@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>图书推荐系统</title>
+<script src="/static/js/index.js"></script>
+<link rel="stylesheet" href="/static/css/index.css">
+
+</head>
+<body style="background-image: url(../static/img/bg.jpg);">
+	<div id="zh">
+		类别：
+		<select id="area">
+		　　<option value="1" selected>电影</option>		
+		　　<option value="2">游戏</option>
+		   <option value="3">图书</option>		
+		</select>	
+		<input id="uid" type="text">
+		<input id="btn" type="button" value="查看" onclick="ajaxToGetData()">
+	</div>
+	<div id="breakNews">
+		<div class="one">
+			<ul id="breakNewsList1" class="list6">
+	        
+	        </ul>
+
+        </div>
+	</div>
+</body>
+</html>
